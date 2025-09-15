@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Playwright
+playwright-report/
+test-results/
+*.zip
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

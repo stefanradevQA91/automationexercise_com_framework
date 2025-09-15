@@ -1,0 +1,20 @@
+{
+  "login": {
+    "positive": [
+      {
+        "email": "drak0@abv.bg",
+        "password": "Lamzas22@"
+      }
+    ],
+    "negative": [
+      {
+        "email": "drak0@abv.bg",
+        "password": "WrongPassword"
+      },
+      {
+        "email": "invalid_user@abv.bg",
+        "password": "SomePassword123"
+      }
+    ]
+  }
+}
