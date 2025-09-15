@@ -72,6 +72,7 @@ Defined in pytest.ini:
 	-	login – login/logout tests
 	-	signup – signup/registration tests
 	-	product – product search & cart tests
+	-   flaky - tests that are unstable/flaky
 
 ## Test Coverage
 

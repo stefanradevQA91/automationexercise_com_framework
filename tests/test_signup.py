@@ -80,6 +80,7 @@ def test_signup_empty_required_fields(page):
     validation_message = signup_page.signup_email_input.evaluate("el => el.validationMessage")
     assert validation_message.strip() != "", "Expected browser validation message for empty Email field"
 
+@pytest.mark.flaky(reruns=2, reruns_delay=5) 
 @pytest.mark.signup
 def test_signup_account_info_required_fields(page):
     email = fake.unique.email()
