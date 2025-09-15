@@ -61,6 +61,8 @@ def test_signup_existing_email(page, test_data):
 
     expect(signup_page.existing_email_error).to_be_visible()
 
+@pytest.mark.signup
+@pytest.mark.smoke
 def test_signup_empty_required_fields(page):
     header = Header(page)
     signup_page = SignupPage(page)
